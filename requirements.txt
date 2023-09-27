@@ -1,0 +1,221 @@
+absl-py==1.1.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+albumentations==1.2.1
+altair==4.2.0
+antlr4-python3-runtime==4.9.3
+anyio==3.6.1
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+asttokens==2.0.5
+async-timeout==4.0.2
+attrs==21.4.0
+Babel==2.10.3
+backcall==0.2.0
+batchgenerators==0.24
+beautifulsoup4==4.11.1
+bleach==5.0.0
+blinker==1.5
+blobfile==1.3.1
+brotlipy==0.7.0
+cachetools==5.2.0
+certifi==2022.5.18.1
+cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.3
+-e git+https://github.com/openai/CLIP.git@d50d76daa670286dd6cacf3bcd80b5e4823fc8e1#egg=clip
+coloredlogs==15.0.1
+commonmark==0.9.1
+cryptography @ file:///tmp/build/80754af9/cryptography_1652101588893/work
+cycler==0.11.0
+debugpy==1.6.0
+decorator==5.1.1
+defusedxml==0.7.1
+diffusers==0.3.0
+docker-pycreds==0.4.0
+einops==0.4.1
+entrypoints==0.4
+executing==0.8.3
+fastjsonschema==2.15.3
+filelock==3.7.1
+flatbuffers==2.0.7
+# Editable install with no version control (foba-diffusion==0.0.1)
+-e /vol/ideadata/ed52egek/pycharm/foba
+fonttools==4.33.3
+frozenlist==1.3.0
+fsspec==2022.5.0
+ftfy==6.1.1
+future==0.18.2
+gitdb==4.0.9
+GitPython==3.1.27
+google-auth==2.7.0
+google-auth-oauthlib==0.4.6
+grpcio==1.46.3
+huggingface-hub==0.9.1
+humanfriendly==10.0
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+imageio==2.21.0
+imageio-ffmpeg==0.4.7
+importlib-metadata==4.11.4
+iniconfig==1.1.1
+invisible-watermark==0.1.5
+ipykernel==6.15.0
+ipython==8.4.0
+ipython-genutils==0.2.0
+ipywidgets==7.7.1
+jedi==0.18.1
+Jinja2==3.1.2
+joblib==1.1.0
+json5==0.9.10
+jsonschema==4.6.0
+jupyter==1.0.0
+jupyter-client==7.3.4
+jupyter-console==6.4.4
+jupyter-core==4.10.0
+jupyter-server==1.19.1
+jupyterlab==3.4.7
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==1.1.1
+jupyterlab_server==2.15.2
+kiwisolver==1.4.3
+kornia==0.6.7
+# Editable install with no version control (latent-diffusion==0.0.1)
+-e /vol/ideadata/ed52egek/pycharm/foba/stable-diffusion
+linecache2==1.0.0
+Markdown==3.3.7
+MarkupSafe==2.1.1
+matplotlib==3.5.2
+matplotlib-inline==0.1.3
+mistune==0.8.4
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
+mkl-service==2.4.0
+mpmath==1.2.1
+multidict==6.0.2
+nbclassic==0.4.4
+nbclient==0.6.4
+nbconvert==6.5.0
+nbformat==5.4.0
+nest-asyncio==1.5.5
+networkx==2.8.5
+nibabel==3.2.2
+# Editable install with no version control (nnood==0.0.0)
+-e /vol/ideadata/ed52egek/pycharm/moodsubmission/mood-2022/ssooddf
+notebook==6.4.12
+notebook-shim==0.1.0
+numpy @ file:///opt/conda/conda-bld/numpy_and_numpy_base_1652801679809/work
+oauthlib==3.2.0
+omegaconf==2.2.3
+onnx==1.12.0
+onnxruntime==1.12.1
+opencv-python==4.6.0.66
+opencv-python-headless==4.6.0.66
+packaging==21.3
+pandas==1.4.2
+pandocfilters==1.5.0
+parso==0.8.3
+pathtools==0.1.2
+pexpect==4.8.0
+pickleshare==0.7.5
+# Editable install with no version control (pie-torch==0.0)
+-e /vol/ideadata/ed52egek/pycharm/moodsubmission/mood-2022/pytorch-poisson-image-editing
+wandb
+Pillow==9.0.1
+pluggy==1.0.0
+prometheus-client==0.14.1
+promise==2.3
+prompt-toolkit==3.0.29
+protobuf==3.19.4
+psutil==5.9.1
+ptyprocess==0.7.0
+pudb==2022.1.2
+pure-eval==0.2.2
+py==1.11.0
+pyarrow==9.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycryptodomex==3.15.0
+pydeck==0.8.0b2
+pyDeprecate==0.3.2
+Pygments==2.12.0
+Pympler==1.0.1
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing==3.0.9
+pyrsistent==0.18.1
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
+pytest==7.1.2
+python-dateutil==2.8.2
+pytorch-lightning==1.6.4
+pytz==2022.1
+pytz-deprecation-shim==0.1.0.post0
+PyWavelets==1.3.0
+PyYAML==6.0
+pyzmq==23.2.0
+qtconsole==5.3.1
+QtPy==2.1.0
+qudida==0.0.4
+regex==2022.8.17
+requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
+requests-oauthlib==1.3.1
+rich==12.5.1
+rsa==4.8
+scikit-image==0.19.3
+scikit-learn==1.1.1
+scipy==1.8.1
+semver==2.13.0
+Send2Trash==1.8.0
+sentry-sdk==1.5.12
+setproctitle==1.2.3
+shortuuid==1.0.9
+SimpleITK==2.1.1.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sklearn==0.0
+smmap==5.0.0
+sniffio==1.3.0
+soupsieve==2.3.2.post1
+stack-data==0.3.0
+streamlit==1.12.2
+sympy==1.11.1
+-e git+https://github.com/CompVis/taming-transformers.git@24268930bf1dce879235a7fddd0b2355b84d7ea6#egg=taming_transformers
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+terminado==0.15.0
+test-tube==0.7.5
+threadpoolctl==3.1.0
+tifffile==2022.7.31
+tinycss2==1.1.1
+tokenizers==0.12.1
+toml==0.10.2
+tomli==2.0.1
+toolz==0.12.0
+torch==1.12.1
+torch-fidelity==0.3.0
+torchaudio==0.11.0
+torchmetrics==0.9.1
+torchvision==0.12.0
+tornado==6.1
+tqdm==4.64.0
+traceback2==1.4.0
+traitlets==5.3.0
+transformers==4.21.3
+typing==3.7.4.3
+typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
+tzdata==2022.2
+tzlocal==4.2
+unittest2==1.1.0
+urllib3 @ file:///opt/conda/conda-bld/urllib3_1650639997961/work
+urwid==2.1.2
+urwid-readline==0.13
+validators==0.20.0
+wandb==0.12.18
+watchdog==2.1.9
+wcwidth==0.2.5
+webencodings==0.5.1
+websocket-client==1.4.1
+Werkzeug==2.1.2
+widgetsnbextension==3.6.1
+xmltodict==0.12.0
+yarl==1.7.2
+zipp==3.8.0

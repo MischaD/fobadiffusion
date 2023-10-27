@@ -13,6 +13,7 @@ You need a pretrained text to image diffusion model. We did our main experiments
 Next install the required packages:
 
     pip install -r requirements.txt
+    pip install -e ./stable-diffusion 
 
 We resolve experiments with experiment config files located in _./experiments_. If you want to perform experiments on your own dataset you mainly have to change the following arguments: 
 
@@ -69,12 +70,14 @@ Now change the value of _data.params.train.params.opt_path to be equal to the ou
 
 ### Step 3: 
 
+The next step includes the preliminary masks but this time inpaints the foreground region with the background image. The difference image is then saved.
+
     python ./scripts/sample_background_prelim_masks.py experiments/birds/compute_preliminary_bird_masks_train.py # computes inpainted mask (Step 3)
 
 ### Segmentation Evaluation
+To evaluate foreground segmentation we take the difference image from Step 3 as ground truth labels and train the model towards segmentation.
 
     python ./scripts/train_segmentation_refined.py experiments/birds/compute_preliminary_bird_masks_train.py
-
 
 
 # For more details have a look at our paper 

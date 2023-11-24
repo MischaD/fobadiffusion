@@ -61,7 +61,7 @@ To save computation time we precompute the attention masks of the entire dataset
 ### Step 2: Finetune stable diffusion on your custom dataset
 Now change the value of _data.params.train.params.opt_path to be equal to the output path from the previous steps and run the following command for finetuning the diffsion model
 
-    python stable-diffusion/main.py -t --base ./experiments/configs/bird_finetuning.yaml --gpus 0,1 --scale_lr False --num_nodes 1  --check_val_every_n_epoch  1 --finetune_from ./stable-diffusion/sd-v1-4-full-ema.ckpt data.params.batch_size=4 lightning.trainer.accumulate_grad_batches=1 data.params.validation.params.n_gpus=2
+    python finetune-stable-diffusion/main.py -t --base ./experiments/configs/bird_finetuning.yaml --gpus 0,1 --scale_lr False --num_nodes 1  --check_val_every_n_epoch  1 --finetune_from ./stable-diffusion/sd-v1-4-full-ema.ckpt data.params.batch_size=4 lightning.trainer.accumulate_grad_batches=1 data.params.validation.params.n_gpus=2
 
 
 *Sampling:* Now we can sample foreground and background using the prompt 'a photo of a background' or 'a photo of a bird'
